@@ -14,15 +14,16 @@ def FizzBuzz(num)
    num.to_s
   end 
 end 
-#メソッドの呼び出し
-#num_max = 100
-#(1..num_max).each do |num|
- #p FizzBuzz(num)
-#end
-
+#メソッドの呼び出し each
 num_max = 100
-num = 0
-while num < num_max
-    num += 1
-    p FizzBuzz(num)
+(1..num_max).each do |num|
+ puts FizzBuzz(num)
 end
+
+#メソッドの呼び出し while
+#num_max = 100
+#num = 0
+#while num < num_max
+#    num += 1
+#    puts FizzBuzz(num)
+#end
