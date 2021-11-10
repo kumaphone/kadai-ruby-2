@@ -11,7 +11,7 @@ def FizzBuzz(num)
   elsif num % 3 == 0
    'Fizz'
   else
-   num.to_s
+   num
   end 
 end 
 #メソッドの呼び出し each
